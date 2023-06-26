@@ -12,10 +12,12 @@ class modes: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-       
     }
-    
-
-   
-
+    @IBAction func alphabatesButtonAction(_ sender: Any) {
+    }
+    @IBAction func numbersButtonAction(_ sender: Any) {
+    }
+    @IBAction func colorsButtonAction(_ sender: Any) {
+    }
 }
+

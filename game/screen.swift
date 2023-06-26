@@ -9,13 +9,15 @@ import UIKit
 
 class screen: UIViewController {
 
-    var arrayForAlphabatesImage = [""]
-    var arrayForAlphabatesName = [""]
-    var arrayForNumbersImage = [""]
+    @IBOutlet weak var image: UIImageView!
+    @IBOutlet weak var label: UILabel!
+    var arrayForAlphabatesImage = [UIImage(named:"a"),UIImage(named:"b"),UIImage(named:"c"),UIImage(named:"d"),UIImage(named:"e"),UIImage(named:"f"),UIImage(named:"g"),UIImage(named:"h"),UIImage(named:"i"),UIImage(named:"j"),UIImage(named:"k"),UIImage(named:"l"),UIImage(named:"m"),UIImage(named:"n"),UIImage(named:"o"),UIImage(named:"p"),UIImage(named:"q"),UIImage(named:"r"),UIImage(named:"s"),UIImage(named:"t"),UIImage(named:"u"),UIImage(named:"v"),UIImage(named:"w"),UIImage(named:"x"),UIImage(named:"y"),UIImage(named:"z")]
+    var arrayForAlphabatesName = ["A for Apple","B for Bitroot","C for Corn","D for Drum","E for Email","F for Face","G for Gold","H for Heart","I for Idea","J for Jam","K for King","L for Labour","M for Masquito","N for Nine","O for One","P for Penute","Q for Quartz","R for Ribbon","S for Sun","T for Tomatto","U for UFO","V for Vampire","W for Widget","X for X-Ray","Y for Yoga","Z for Zeus"]
+    var arrayForNumbersImage = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98,99,100]
     var arrayForNumbersName = ["1 – one",
                              "  2 – two",
                                "3 – three",
-                              " 4 – four",
+                               " 4 – four",
                                "5 – five",
                                "6 – six",
                                "7 – seven",
@@ -115,6 +117,8 @@ class screen: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+    }
+    func alphabates(){
 
     }
     
