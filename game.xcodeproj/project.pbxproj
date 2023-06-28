@@ -8,18 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		C224E2042A4579D500A25784 /* modes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224E2032A4579D500A25784 /* modes.swift */; };
-		C224E2062A457A0C00A25784 /* screen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224E2052A457A0C00A25784 /* screen.swift */; };
+		C224E2062A457A0C00A25784 /* screenForAlphabates.swift in Sources */ = {isa = PBXBuildFile; fileRef = C224E2052A457A0C00A25784 /* screenForAlphabates.swift */; };
 		C27D43632A42C8D800A3AA1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D43622A42C8D800A3AA1B /* AppDelegate.swift */; };
 		C27D43652A42C8D800A3AA1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D43642A42C8D800A3AA1B /* SceneDelegate.swift */; };
 		C27D43672A42C8D800A3AA1B /* play.swift in Sources */ = {isa = PBXBuildFile; fileRef = C27D43662A42C8D800A3AA1B /* play.swift */; };
 		C27D436A2A42C8D800A3AA1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27D43682A42C8D800A3AA1B /* Main.storyboard */; };
 		C27D436C2A42C8D900A3AA1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C27D436B2A42C8D900A3AA1B /* Assets.xcassets */; };
 		C27D436F2A42C8D900A3AA1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C27D436D2A42C8D900A3AA1B /* LaunchScreen.storyboard */; };
+		C29FD7A22A4C104900960326 /* screenForNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FD7A12A4C104900960326 /* screenForNumbers.swift */; };
+		C29FD7A42A4C107900960326 /* screenForColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = C29FD7A32A4C107900960326 /* screenForColors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C224E2032A4579D500A25784 /* modes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modes.swift; sourceTree = "<group>"; };
-		C224E2052A457A0C00A25784 /* screen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screen.swift; sourceTree = "<group>"; };
+		C224E2052A457A0C00A25784 /* screenForAlphabates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenForAlphabates.swift; sourceTree = "<group>"; };
 		C27D435F2A42C8D800A3AA1B /* game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = game.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C27D43622A42C8D800A3AA1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C27D43642A42C8D800A3AA1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +30,8 @@
 		C27D436B2A42C8D900A3AA1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C27D436E2A42C8D900A3AA1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C27D43702A42C8D900A3AA1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C29FD7A12A4C104900960326 /* screenForNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenForNumbers.swift; sourceTree = "<group>"; };
+		C29FD7A32A4C107900960326 /* screenForColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = screenForColors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 				C27D43642A42C8D800A3AA1B /* SceneDelegate.swift */,
 				C27D43662A42C8D800A3AA1B /* play.swift */,
 				C27D43682A42C8D800A3AA1B /* Main.storyboard */,
-				C224E2052A457A0C00A25784 /* screen.swift */,
+				C29FD7A32A4C107900960326 /* screenForColors.swift */,
+				C29FD7A12A4C104900960326 /* screenForNumbers.swift */,
+				C224E2052A457A0C00A25784 /* screenForAlphabates.swift */,
 				C224E2032A4579D500A25784 /* modes.swift */,
 				C27D436B2A42C8D900A3AA1B /* Assets.xcassets */,
 				C27D436D2A42C8D900A3AA1B /* LaunchScreen.storyboard */,
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C27D43672A42C8D800A3AA1B /* play.swift in Sources */,
-				C224E2062A457A0C00A25784 /* screen.swift in Sources */,
+				C224E2062A457A0C00A25784 /* screenForAlphabates.swift in Sources */,
+				C29FD7A22A4C104900960326 /* screenForNumbers.swift in Sources */,
 				C27D43632A42C8D800A3AA1B /* AppDelegate.swift in Sources */,
+				C29FD7A42A4C107900960326 /* screenForColors.swift in Sources */,
 				C224E2042A4579D500A25784 /* modes.swift in Sources */,
 				C27D43652A42C8D800A3AA1B /* SceneDelegate.swift in Sources */,
 			);
