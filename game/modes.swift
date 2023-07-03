@@ -14,10 +14,15 @@ class modes: UIViewController {
 
     }
     @IBAction func alphabatesButtonAction(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "screenForAlphabates") as! screenForAlphabates
+        navigationController?.pushViewController(naviget, animated: true)
     }
     @IBAction func numbersButtonAction(_ sender: Any) {
+        let naviget = storyboard?.instantiateViewController(withIdentifier: "screenForNumbers") as! screenForNumbers
+        navigationController?.pushViewController(naviget, animated: true)
     }
     @IBAction func colorsButtonAction(_ sender: Any) {
     }
 }
+
 
